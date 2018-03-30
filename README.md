@@ -10,6 +10,7 @@ Steps followed for testing the playbooks:
 1) Created three servers on digitalocean. The servers ip addresses are mentioned inside the webservers file.
 2) All the ssh_users related inforamtion can be modified inside group_vars/users file.
 3) ssh access can given to all users on servers by running the following ansible playbook
+
     SSH-ACCESS:
        ansible-playbook -i webservers ssh-access.yml
        
